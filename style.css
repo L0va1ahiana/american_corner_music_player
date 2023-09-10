@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* the centered container */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    padding-top: 60px !important;
+    background: linear-gradient(rgb(128, 86, 39), rgb(153, 84, 20));
+    width: 45%;
+    height: 500px;
+    border-radius: 20px 3px 20px 3px;
+}
+
+/* style on the song thumbnail */
+#thumbnail {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.song_title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.singer {
+    color: rgba(255, 255, 255, 0.712);
+    display: inline-block;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* for the bar */
+.slide_container {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.slide_container input {
+    width: 100%;
+    height: 3px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+/* style on the control button */
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.button i {
+    font-size: 30px; /* for next and previous */
+}
+
+#pause_button {
+    font-size: 40px;
+}
+
+/* style on my github link */
+.github {
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.github i {
+    font-size: 20px;
+}
+
+.github a {
+    color: rgb(206, 205, 205);
+    font-style: italic;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.github:hover {
+    letter-spacing: 3px;
+}
+
+/* second column */
+#right {
+    width: 220px;
+}
+
+header h1 {
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+header h1 span {
+    font-size: 21px;
+}
+
+/* styles on the icon buttons */
+header h1 i, .button i {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+header h1 i:hover, .button i:hover {
+    color: rgba(58, 57, 57);
+}
+
+/* style the american corner profile */
+.ac {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ac img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 7px;
+    padding-top: 3px;
+}
+
+.ac img + p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.same_style {
+    font-weight: bold;
+}
+
+#event {
+    color: rgba(255, 255, 255, 0.829);
+}
+
+/* the date and the time */
+.datime {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.datime div {
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.time img {
+    width: 15px;
+    margin-top: 5px;
+}
+
+.listening {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* design on the year */
+.year {
+    background-color: rgba(255, 255, 255, 0.384);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.year p {
+    color: rgba(0, 0, 0, 0.884);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.year span {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-size: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
